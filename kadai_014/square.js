@@ -1,7 +1,7 @@
 const  calculateTotal= (price) => {
 
-    console.log (price * price);
+    return price *price;
 }
 
-calculateTotal(10);
+console.log(calculateTotal(10));
 
